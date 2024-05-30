@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical"
+    android:weightSum="9.0">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:gravity="center|left"
+        android:orientation="horizontal"
+        android:paddingLeft="12.0dip">
+
+        <TextView
+            android:id="@+id/titul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6.0dip"
+            android:text="Información"
+            android:textColor="#ff000000"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.70000005dip"
+        android:layout_marginTop="50.0dip"
+        android:background="#ffd8d8d8" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginTop="4.0dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="6.0dip">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15.0dip"
+            android:layout_toRightOf="@+id/valorID"
+            android:orientation="horizontal"
+            android:weightSum="6.0">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="12.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/infoID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="6.0dip"
+                    android:layout_marginRight="4.0dip"
+                    android:text="@string/info_no_misc"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

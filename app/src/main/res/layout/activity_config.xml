@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo_inicio"
+    android:paddingBottom="15.0dip">
+
+    <TextView
+        android:id="@+id/tvappname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20.0dip"
+        android:text="@string/ajustes"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvappname"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginRight="25.0dip"
+        android:layout_marginTop="20.0dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/categoria"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewAero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12.0dip"
+            android:padding="6.0dip">
+
+            <Spinner
+                android:id="@+id/spinner_categ"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:pointerIcon="hand"
+                android:popupBackground="#ffffff"
+                android:spinnerMode="dropdown" tools:targetApi="n" />
+        </android.support.v7.widget.CardView>
+
+        <RadioGroup
+            android:id="@+id/rgCateg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16.0dip">
+
+            <RadioButton
+                android:id="@+id/primeraID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:checked="true"
+                android:text="@string/pri_importaciones"
+                android:textColor="#ffffffff" />
+
+            <RadioButton
+                android:id="@+id/segundaID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12.0dip"
+                android:checked="false"
+                android:text="@string/seg_importaciones"
+                android:textColor="#ffffffff" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginRight="25.0dip"
+        android:layout_marginTop="16.0dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/metodo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/metodo"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10.0dip">
+
+            <RadioButton
+                android:id="@+id/pesoVID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:checked="true"
+                android:text="@string/metodovp"
+                android:textColor="#ffffffff" />
+
+            <RelativeLayout
+                android:id="@+id/rellay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="25.0dip"
+                    android:paddingTop="6.0dip"
+                    android:text="@string/peso_miscelaneas"
+                    android:textColor="#ffffffff" />
+
+                <TextView
+                    android:id="@+id/tvPeso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/cuadro_peso"
+                    android:padding="6.0dip"
+                    android:text="0.0 kg" />
+            </RelativeLayout>
+
+            <RadioButton
+                android:id="@+id/valorID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:text="@string/metodov"
+                android:textColor="#ffffffff" />
+
+            <RelativeLayout
+                android:id="@+id/rellay2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="25.0dip"
+                    android:paddingTop="6.0dip"
+                    android:text="@string/valor_miscelaneas"
+                    android:textColor="#ffffffff" />
+
+                <TextView
+                    android:id="@+id/tvValor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/cuadro_peso"
+                    android:paddingBottom="6.0dip"
+                    android:paddingStart="6.0dip"
+                    android:paddingEnd="8.0dip"
+                    android:paddingTop="6.0dip"
+                    android:text="$ 0.00" />
+            </RelativeLayout>
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/guardarID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:layout_below="@id/linearLayout"
+        android:layout_marginTop="16.0dip"
+        android:background="#ffffffff"
+        android:text="@string/guardar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/imagen"
+            android:layout_width="match_parent"
+            android:layout_height="300.0dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="152.0dip"
+            android:alpha="0.12"
+            android:background="@drawable/logo"
+            android:visibility="visible" />
+    </RelativeLayout>
+</RelativeLayout>

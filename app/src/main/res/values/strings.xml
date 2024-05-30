@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name" translatable="false">Bibijaguas</string>
+
+    <string name="folder_name" translatable="false">Bibijaguas</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="categoria">CATEGORÍA DEL VIAJERO</string>
+    <string name="metodo">MÉTODO DE PAGO</string>
+    <string name="metodov">Valor</string>
+    <string name="metodovp">Valor/Peso</string>
+    <string name="valor_miscelaneas">Valor de misceláneas</string>
+    <string name="peso_miscelaneas">Peso de misceláneas</string>
+    <string name="seg_importaciones">Segunda o más importaciones en un año calendario.</string>
+    <string name="pri_importaciones">Primera importación en un año calendario.</string>
+    <string name="guardar">Guardar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="seleccione">Seleccione</string>
+    <string name="elpeso">el peso</string>
+    <string name="elvalor">el valor</string>
+    <string name="ajute_salvados">Ajustes actualizados correctamente.</string>
+    <string name="cargando">Cargando...</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="info_no_misc">En este apartado existen productos que se catalogan como miscelaneas, y no podrán ser seleccionados debido a que se encuentra en el método Valor/Peso. Para cambiar el método acceda a la opción de Ajuste.</string>
+    <string name="info_pasado">Revise su equipaje porque tiene irregularidades y le podrán decomisar parte del mismo: Usted ha excedido el valor total de importación ($1000 valor aduana).</string>
+    <string name="buscarhint">Buscar...</string>
+    <string name="no_coincidencias">No se encuentran coincidencias.</string>
+    <string name="la_cantidad">la cantidad</string>
+    <string name="informacion">Información</string>
+    <string name="regulado">PRECIO\nREGULADO</string>
+    <string name="servicios">SERVICIO\nADUANERO</string>
+    <string name="valor_a_pagar">IMPUESTO A PAGAR</string>
+    <string name="fecha_del_historial">Fecha del historial</string>
+    <string name="msg_historial">Historial de viaje almacenado correctamente.</string>
+    <string name="descripcion">Descripción del viaje</string>
+    <string name="diario_de_negocio">DIARIO DE VIAJE</string>
+    <string name="calculo_de_aduana">CÁLCULO DE ADUANA</string>
+    <string name="ayuda">AYUDA</string>
+    <string name="equipaje">Equipaje</string>
+    <string name="P1">"Todo pasajero puede importar exento del pago de los derechos de aduana los artículos y productos siguientes:
+
+ Ø Sus efectos personales consistentes en la ropa y demás artículos nuevos o usados que pueda razonablemente necesitar para su uso personal teniendo en cuenta todas las circunstancias del viaje, los días y las estancias intermedias.
+
+ También se consideran efectos personales de los pasajeros (Resolución No. 357, de la Titular del Ministerio de Finanzas y Precios, de 19 de octubre de 2012), además de su ropa, calzado, artículos de tocador y de aseo personal previstos en la normativa aduanera, los objetos siguientes:
+
+ · Reproductor de multimedia digital portátil.
+ · Teléfono móvil (celular).
+ · Aparato de televisión portátil.
+ · Computadora personal portátil.
+ · Cámara fotográfica.
+ · Artículos para la transportación, entretenimiento, alimentación y cuidado de los niños, conforme a la edad.
+
+ Ø Artículos o productos sujetos al pago, cuando su valor sea inferior a $50.99 pesos.
+
+ · 10 kilogramos de medicamentos, siempre que se transporten en equipaje separado e independientes de otros artículos, en sus envases originales, tales como, productos farmacéuticos elaborados, siempre que no estén comprendidos entre los medicamentos cuyaimportación no se autoriza o esté sujeta a requisitos especiales.
+
+ · Libros científicos, técnicos, de arte y literatura, partituras musicales, discos, cintas magnetofónicas, vistas fijas y películas cinematográficas para la enseñanza, sillas de ruedas para inválidos, prótesis cuando reemplacen o sustituyan un órgano o parte de el, y los equipos, libros o materiales destinados para ciegos, medallas,condecoraciones y los premios concedidos en el extranjero, y los productos que como regalos o premios reciban los ciudadanos cubanos por su condición de científicos, deportistas, artistas y otra, siempre que se demuestre su origen con el documento correspondiente, así como, los productos que como importación temporal, traen los extranjeros en su condición de artistas, deportistas, especialistas, científicos, periodistas y cineastas, los pasajeros en tránsito y aquellas personas que arriban al país en circunstancias especiales, y todos aquellos a los que se le otorgue este beneficio por convenios internacionales de que Cuba fuere parte."</string>
+    <string name="P10">Además de sus efectos personales podrán importar, pagando los derechos de aduanas que correspondan, artículos nuevos o usados hasta un valor máximo de $1,000.00 (mil).</string>
+    <string name="P11">Los artículos que se excedan del valor máximo permitido ($1,000.00) estarán sujetos al decomiso.</string>
+    <string name="P12">Los artículos que importen los pasajeros en exceso de los cincuenta pesos con noventa y nueve centavos ($50.99) y hasta un valor de mil pesos ($1 000.00), pagarán una tarifa progresiva en correspondencia con el valor de la importación, como se establece a continuación: de $ 51.00 hasta $ 500.99 el 100 por ciento de $ 501.00 hasta $ 1000.00 el 200 por ciento.</string>
+    <string name="P13">Si usted es residente permanente en Cuba, con independencia de la nacionalidad, el pago de los aranceles será abonado en pesos cubanos (CUP) en la primera importación en cada año calendario (1ro de enero al 31 de diciembre). En la segunda importación y las siguientes que los cubanos y extranjeros residentes permanentes en el territorio nacional realicen dentro del año calendario, el cálculo de los aranceles a pagar se realizará en pesos convertibles (CUC) y se aportarán en pesos cubanos (CUP), según la tasa de cambio vigente para las operaciones de venta de CUC a la población. Si usted es residente permanente en el extranjero, con independencia de la nacionalidad, paga en CUC</string>
+    <string name="P14">Para que un menor pueda realizar importación en su condición de pasajero debe tener los 10 años cumplidos y hacerse representar por una persona mayor de edad.Los menores de 10 años no pueden realizar importación. Sólo pueden traer consigo los efectos personales propios de su edad.</string>
+    <string name="P15">Usted puede traer consigo a Cuba mascotas(perros, gatos, etc..), siempre que estén acompañados del correspondiente Certificado de Salud y de Vacunación que corresponda emitido por la autoridad sanitaria del país de procedencia. En todos los casos la autorización la otorga en la frontera la autoridad médico-veterinaria de Cuba la que lo determina teniendo en cuenta el certificado de Salud y Vacunación que se presente, las condiciones de salud del animal y el país de origen, para eximirlos de la cuarentena. Cuando se trate de un animal de las especies en peligro de extinción protegidos por la Convención Sobre el Comercio Internacional de Especies Amenazadas de Flora y Fauna Silvestre (CITES), se exigirá además el certificado CITES emitido por la Autoridad del país de origen.</string>
+    <string name="P16">Puede importar artículos conforme a lo establecido para todos los pasajeros en cuanto a límite en valor, tarifa aplicable, cantidad de artículos y moneda de pago.</string>
+    <string name="P17">Hasta veinte (20) unidades de tabaco torcido sueltos, sin necesidad de presentar ningún documento; hasta cincuenta (50) unidades de tabaco torcido, con la condición de que estén contenidos en envases originales, cerrados, sellados y con el holograma oficial establecido, exigencias sin las cuales no se autoriza la exportación; y cantidad en exceso de cincuenta (50) unidades de tabaco torcido, siempre que presente la factura de venta oficial expedida por la red de tiendas autorizadas a comercializar tabacos torcidos cubanos, correspondiente a todo el tabaco torcido que intenta extraer y que necesariamente tienen que estar contenidos en envases originales, cerrados y sellados y con el holograma oficial establecido.</string>
+    <string name="P2">Dicho método se basa en el pesaje de las piezas o bultos que componen el equipaje, incluyendo el de mano, con excepción de aquellos artículos que se encuentran exentos del pago de los derechos de aduanas o que se valoran de forma independiente, entendiéndose como tales los artículos electrodomésticos y otros que no clasifican como miscelánea. Este método tiene como objetivo, facilitar y agilizar el despacho aduanero.</string>
+    <string name="P3">"calzado, confecciones, alimentos, artículos de aseo personal y del hogar, bisutería, lencería, perfumería y similares, serán pesados.
+
+ No clasifican como MISCELÁNEA los equipos electrodomésticos y otros equipos duraderos, así como sus partes y piezas y otros similares, los que se valoran individual e independientemente, no se pesan y se consideran dentro del límite en valor a que tiene derecho a importar el pasajero."</string>
+    <string name="P4">Se entiende por efectos personales los articulos, nuevos o usados, que un viajero pueda razonablemente necesitar para su uso personal en el transcurso de su viaje, teniendo en cuenta todas las circunstancias de este viaje y las estancias intermedias, con exclusion de cualquier mercancia importada o exportada con fines comerciales. En el caso de viajeros que arriben al país en condición de turistas, se entiende por sus efectos personales aquellos artículos catalogados como tales en la Convención de Facilidades Aduaneras al Turismo.</string>
+    <string name="P5">La importación con caracter comercial de artículos y bienes, está sujeta a regulaciones muy específicas y solamente puede realizarse por las entidades previamente autorizadas por el Estado. Los artículos que formen parte del equipaje de los viajeros deberán tener siempre un carácter No Comercial, entendiéndose por ello la importación y exportación de artículos, equipos y otros bienes sin finalidad comercial y siempre que por la cantidad, calidad, variedad y valor de la mercadería, pudiere presumirse que son para uso o consumo personal del viajero o de su familia. (Consultar Límite para la determinación del Carácter Comercial)</string>
+    <string name="P6">Todos los pasajeros pueden importar hasta 10 kgs. de medicamentos los cuales deben venir en sus envases originales y no estar expresamente prohibidos o sujetos a permisos o licencias, si no se posee el mismo. Por estos medicamentos no se pagarán derechos de aduanas siempre que se traigan en un equipaje independiente. Ver más sobre medicamentos..</string>
+    <string name="P7">Los alimentos están incluidos en la categoría de miscelaneas y como tal son tratados a los efectos de la valoración de los artículos importados por un viajero y del pago de los derechos de aduanas. Su valor formará parte del total máximo permitido como importación no comercial a los pasajeros. Independientemente de lo anterior, los alimentos están sujetos a la inspección y control por parte de las autoridades fito-sanitarias de fronteras.</string>
+    <string name="P8">La Declaración de Aduanas para Pasajeros se llenará y presentará cuando se traen además de los efectos personales, artículos que estén sujetos al pago de derechos de aduanas, o cuando el pasajero porta dinero en efectivo en cantidad superior a 5000.00 USD o equivalente en otras monedas.</string>
+    <string name="P9">Deberán declararse, todos los artículos que no forman parte de los efectos personales, estén sujetos al pago de derecho o expresamente exento.\n\n Además:\n\nArmas (de fuego, blancas u otras) y sus municiones Animales vivos, productos de origen animal o vegetal Muestras u otros artículos con fines comerciales Pornografía Equipos de comunicación satelital Otros equipos de comunicación ( Walkie Talkie) Dinero en efectivo siempre que exceda los cinco mil (5,000.00) USD o equivalente en otras monedas. Obras de arte y objetos de valor museable Cualquier artículo de alto valor que el pasajero prevea reexportar (llevarlo consigo a la salida).</string>
+    <string name="prohibidos">Prohibidos</string>
+    <string name="regulados">Regulados</string>
+    <string name="faq">Preguntas frecuentes</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="autores">Erodis Pérez Michel\neperezm1986@gmail.com</string>
+    <string name="desarrollado_por">Desarrollado por:</string>
+    <string name="derechos">Todos los Derechos Reservados</string>
+    <string name="version">versión: 1.0</string>
+    <string name="precio">Precio</string>
+    <string name="dummy_capitulo">Título del capítulo</string>
+    <string name="moneda_cup" translatable="false">CUP</string>
+    <string name="valor_tope">VALOR\nTOPE</string>
+    <string name="aduana">VALOR\nTOTAL</string>
+    <string name="kg">Kg</string>
+    <string name="direccionF">Faltan</string>
+    <string name="direccionS">Excede en</string>
+    <string name="declaracion">Generar a pdf</string>
+    <string name="declara">Declaración de Aduana</string>
+    <string name="infoAduana">Nombre para el fichero pdf que contiene información de la planilla azul Declaración de aduana que ha de llenar el viajero en el avión para entregar a la aduana cubana.</string>
+    <string name="attabeia">Attabeira</string>
+
+
+</resources>

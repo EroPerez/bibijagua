@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical"
+    android:weightSum="9.0">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:gravity="center|left"
+        android:orientation="horizontal"
+        android:paddingStart="12.0dip">
+
+        <TextView
+            android:id="@+id/titul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6.0dip"
+            android:text="@string/seleccione"
+            android:textColor="#ff000000"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4.0dip"
+            android:text="@string/la_cantidad"
+            android:textColor="#ff828483"
+            android:textSize="14.0sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.70000005dip"
+        android:layout_marginTop="50.0dip"
+        android:background="#ffd8d8d8" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginTop="4.0dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="6.0" android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3.0"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/valorID"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circulo_prod_selec"
+                android:gravity="center"
+                android:text="1"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#ffffffff"
+                android:textSize="25.0dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12.0dip"
+            android:layout_marginTop="12.0dip"
+            android:layout_weight="3.0"
+            android:orientation="vertical"
+            android:weightSum="1.0">
+
+            <ImageButton
+                android:id="@+id/adicionarID"
+                android:layout_width="35.0dip"
+                android:layout_height="35.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="12.0dip"
+                android:layout_weight="1.69"
+                android:background="@drawable/icons8_collapse" />
+
+            <ImageButton
+                android:id="@+id/restarID"
+                android:layout_width="35.0dip"
+                android:layout_height="35.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12.0dip"
+                android:background="@drawable/icons8_expand" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0.70000005dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout3"
+        android:background="#ffd8d8d8" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60.0dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/frameLayout"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/aceptar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/boton_aceptar"
+            android:text="@string/aceptar" />
+    </LinearLayout>
+</RelativeLayout>

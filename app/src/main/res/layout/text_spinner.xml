@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textSpinnerID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spinner_presionado"
+    android:gravity="center|left"
+    android:paddingBottom="12.0dip"
+    android:paddingStart="8.0dip"
+    android:paddingTop="12.0dip"
+    android:text="Texto"
+    android:textColor="#ff818181" />
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<TextView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/textSpinnerID"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@drawable/spinner_presionado"-->
+    <!--android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"-->
+    <!--android:paddingBottom="12dp"-->
+    <!--android:paddingLeft="8dp"-->
+    <!--android:paddingTop="12dp"-->
+    <!--android:text="Texto"-->
+    <!--android:textColor="#818181" />-->

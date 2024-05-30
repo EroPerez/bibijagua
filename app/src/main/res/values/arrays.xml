@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nombres de los items -->
+    <!--<string-array name="categoria_viajero">-->
+        <!--<item>Nacional Residente</item>-->
+        <!--<item>Extranjero Residente</item>-->
+        <!--<item>Nacional No Residente</item>-->
+        <!--<item>Extranjero No Residente</item>-->
+    <!--</string-array>-->
+
+    <string-array name="categoria_viajero">
+        <item>Extranjero</item>
+        <item>Cubano o Extranjero Residente</item>
+    </string-array>
+
+</resources>

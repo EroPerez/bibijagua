@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cargando">Cargando...</string>
+    <string name="dummy_capitulo">Título del capítulo</string>
+    <string name="moneda_cup">CUP</string>
+</resources>

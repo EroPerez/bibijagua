@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical"
+    android:weightSum="9.0">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:gravity="center|left"
+        android:orientation="horizontal"
+        android:paddingStart="12.0dip">
+
+        <TextView
+            android:id="@+id/titul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="6.0dip"
+            android:text="@string/seleccione"
+            android:textColor="#ff000000"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="4.0dip"
+            android:text="@string/elvalor"
+            android:textColor="#ff828483"
+            android:textSize="14.0sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.70000005dip"
+        android:layout_marginTop="50.0dip"
+        android:background="#ffd8d8d8" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginTop="4.0dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="6.0dip">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15.0dip"
+            android:orientation="horizontal"
+            android:weightSum="6.0">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/valorID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="6.0dip"
+                    android:text="$"
+                    android:textSize="46.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <NumberPicker
+            android:id="@+id/npEntero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="6.0dip"
+            android:orientation="horizontal" />
+
+        <TextView
+            android:id="@+id/comaID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="6.0dip"
+            android:layout_marginEnd="4.0dip"
+            android:text=",00"
+            android:textSize="46.0sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0.70000005dip"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_marginTop="6.0dip"
+        android:background="#ffd8d8d8" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60.0dip"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/frameLayout"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/aceptar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/boton_aceptar"
+            android:text="@string/aceptar" />
+    </LinearLayout>
+</RelativeLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#ffffff"-->
+    <!--android:orientation="vertical"-->
+    <!--android:weightSum="9.0">-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/linearLayout2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingLeft="12dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/titul"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingLeft="6dp"-->
+            <!--android:text="@string/seleccione"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="16dp"-->
+            <!--android:textStyle="bold" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_below="@+id/textView2"-->
+            <!--android:paddingLeft="4dp"-->
+            <!--android:text="@string/elvalor"-->
+            <!--android:textColor="#828483"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textStyle="bold" />-->
+    <!--</LinearLayout>-->
+
+    <!--<FrameLayout-->
+        <!--android:id="@+id/frameLayout1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/linearLayout2"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:background="#d8d8d8" />-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/relativeLayout"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/frameLayout1"-->
+        <!--android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/linearLayout3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+
+            <!--android:layout_marginTop="4dp"-->
+            <!--android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"-->
+            <!--android:orientation="vertical"-->
+            <!--android:paddingTop="6dp" />-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/linearLayout6"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerInParent="true">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/valorID"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_marginRight="6dp"-->
+                <!--android:text="$"-->
+                <!--android:textSize="46dp"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<NumberPicker-->
+                <!--android:id="@+id/npEntero"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"-->
+                <!--android:layout_marginLeft="6dp"-->
+                <!--android:orientation="horizontal" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/comaID"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_marginLeft="6dp"-->
+                <!--android:layout_marginRight="4dp"-->
+                <!--android:text=", 0 0"-->
+                <!--android:textSize="46dp"-->
+                <!--android:textStyle="bold" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:orientation="vertical"-->
+            <!--android:weightSum="6.0" />-->
+    <!--</RelativeLayout>-->
+
+    <!--<FrameLayout-->
+        <!--android:id="@+id/frameLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_below="@+id/relativeLayout"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:background="#d8d8d8" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_below="@+id/frameLayout"-->
+        <!--android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/aceptar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@drawable/boton_aceptar"-->
+            <!--android:text="Aceptar" />-->
+    <!--</LinearLayout>-->
+<!--</RelativeLayout>-->

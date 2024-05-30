@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/mycustom_toast_border"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="80.0dip"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_light" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="105.0dip"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout3"
+        android:background="#FFC20C12"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="6.0">
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="2.0"
+                android:orientation="vertical"
+                android:paddingTop="4.0dip">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginTop="2.0dip"
+                    android:gravity="center"
+                    android:text="@string/aduana"
+                    android:textColor="#ffffffff"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$"
+                        android:textColor="#ffffffff" />
+
+                    <TextView
+                        android:id="@+id/aduanaID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1.0dip"
+                        android:gravity="center"
+                        android:text="0.00"
+                        android:textColor="#ffffffff"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="2.0"
+                android:orientation="vertical"
+                android:paddingTop="4.0dip">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginTop="2.0dip"
+                    android:gravity="center"
+                    android:text="@string/valor_tope"
+                    android:textColor="#ffffffff"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/direccion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="2dip"
+                        android:gravity="center"
+                        android:text="@string/direccionF"
+                        android:textColor="#ffffffff"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$"
+                        android:textColor="#ffffffff"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/derechosID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dip"
+                        android:gravity="left|center"
+                        android:text="00000.00"
+                        android:textColor="#ffffffff"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="2.0"
+                android:orientation="vertical"
+                android:paddingTop="4.0dip">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginTop="2.0dip"
+                    android:gravity="center"
+                    android:text="@string/servicios"
+                    android:textColor="#ffffffff"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$"
+                        android:textColor="#ffffffff"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/serviciosID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1.0dip"
+                        android:gravity="center"
+                        android:text="0.00"
+                        android:textColor="#ffffffff"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/clicpeso"
+            android:layout_width="match_parent"
+            android:layout_height="32.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="#FFC20C12"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="12.0dip"
+                android:text="Peso de miscelaneas"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/pesoID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingEnd="6.0dip"
+                android:paddingStart="20.0dip"
+                android:text="0.0"
+                android:textColor="#ffffffff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Kg"
+                android:textColor="#ffffffff"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_above="@+id/relativeLayout4"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/totPag"
+            android:layout_centerHorizontal="true"
+            android:text="@string/valor_a_pagar"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/totPag"
+            android:layout_width="140.0dip"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="6.0">
+
+            <TextView
+                android:id="@+id/totalID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="6.0dp"
+                android:layout_weight="3.0"
+                android:gravity="bottom|center"
+                android:text="EXENTO"
+                android:textColor="#FF071C7B" />
+
+            <TextView
+                android:id="@+id/moneda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.0"
+                android:gravity="bottom"
+                android:paddingBottom="4.0dip"
+                android:text="@string/moneda_cup"
+                android:textColor="#FF071C7B"
+                android:textSize="13.0sp" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/pb"
+            style="@style/Widget.ProgressBar.Vertical"
+            android:layout_width="30dip"
+            android:layout_height="70dip"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="6dip"
+            android:layout_marginStart="5dip"
+            android:layout_marginTop="6dip"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="10"
+            android:secondaryProgress="100" />
+
+        <ImageView
+            android:id="@+id/iconPasad"
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/textView8"
+            android:layout_marginBottom="6dip"
+            android:layout_marginEnd="5dip"
+            android:layout_marginTop="6dip"
+            android:contentDescription="@string/info_pasado"
+            android:src="@drawable/icon_pasado"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</RelativeLayout>

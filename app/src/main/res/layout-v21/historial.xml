@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical"
+    android:weightSum="9.0">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:gravity="center|left"
+        android:orientation="horizontal"
+        android:paddingStart="12.0dip">
+
+        <TextView
+            android:id="@+id/titul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="6.0dip"
+            android:text="@string/seleccione"
+            android:textColor="#ff000000"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/edtHistorial"
+            android:paddingStart="4.0dip"
+            android:text="@string/fecha_del_historial"
+            android:textColor="#ff828483"
+            android:textSize="15.0sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.70000005dip"
+        android:layout_marginTop="50.0dip"
+        android:background="#ffd8d8d8" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginTop="4.0dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="6.0dip">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15.0dip"
+            android:orientation="horizontal"
+            android:weightSum="6.0">
+
+            <EditText
+                android:id="@+id/edtHistorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:ems="10"
+                android:inputType="text|textPersonName"
+                android:text="@string/descripcion" />
+
+            <DatePicker
+                android:id="@+id/datePicker"
+                style="@android:style/Widget.DatePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edtHistorial"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/fecha_del_historial"
+                android:fadingEdge="horizontal"
+
+                android:minDate="2000-01-01"
+                android:padding="0dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0.70000005dip"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_marginTop="6.0dip"
+        android:background="#ffd8d8d8" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60.0dip"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/frameLayout"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_aceptar"
+            android:text="@string/guardar" />
+    </LinearLayout>
+</RelativeLayout>
